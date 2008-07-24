@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+  <sim include="Nasal/views.xml">
+ 
+    <author>Emmanuel BARANGER (3D/FDM)</author>
+    <aircraft-version>0.1</aircraft-version>
+    <status>0.1 Alpha</status>
+
+    <fuel-fraction>0.8</fuel-fraction>
+  
+    <model>
+      <path archive="y">Aircraft/ANT-20/Models/ant20.xml</path>
+      <livery>
+        <file type="string">default</file>
+      </livery>
+    </model>
+
+    <sound>
+      <path>Aircraft/ANT-20/Sounds/ant20-sound.xml</path>
+    </sound>
+
+    <startup>
+      <splash-texture>Aircraft/ANT-20/ant20-splash.png</splash-texture>
+    </startup>
+  
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+      </generic>
+    </multiplay>
+
+    <help>
+      <title>Tupolev ANT 20 Maxime Gorky</title>
+      <key>
+        <name>d</name>
+        <desc>Open/Close canopy</desc>
+      </key>
+    </help>
+
+    <menubar include="Dialogs/ant20-menu.xml"/>
+
+  </sim>
+
+  <input>
+    <keyboard include="Nasal/ant20-keyboard.xml"/>
+  </input>
+ 
+  <nasal>
+    <h1> 
+      <file>Aircraft/ANT-20/Nasal/doors.nas</file>
+      <file>Aircraft/ANT-20/Nasal/light.nas</file>
+      <file>Aircraft/ANT-20/Nasal/liveries.nas</file>
+      <file>Aircraft/ANT-20/Nasal/immat.nas</file>
+    </h1>
+  </nasal>
+
+</PropertyList>
