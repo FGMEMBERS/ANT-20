@@ -52,8 +52,8 @@
     <object-name>voletD1</object-name>
     <object-name>voletD2</object-name>
     <object-name>voletD3</object-name>
-    <object-name>cabineGD</object-name>
-    <object-name>cabineD</object-name>
+    <object-name>cabinesGD</object-name>
+    <object-name>cabineC</object-name>
 
     <!-- transparent objects -->
     <object-name>propblurGE</object-name>
@@ -133,8 +133,8 @@
     <object-name>voletD1</object-name>
     <object-name>voletD2</object-name>
     <object-name>voletD3</object-name>
-    <object-name>cabineGD</object-name>
-    <object-name>cabineD</object-name>
+    <object-name>cabinesGD</object-name>
+    <object-name>cabineC</object-name>
 
     <property-base>sim/model/livery</property-base>
     <texture-prop>texture</texture-prop>
