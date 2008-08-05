@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
-<!-- <PropertyList include="ant20-jsbsim-set.xml"> -->
-<PropertyList include="ant20-yasim-set.xml">
+<!-- <PropertyList include="ant20-jsbsim-cnf.xml"> -->
+<PropertyList include="ant20-yasim-cnf.xml">
 
   <sim>
     <description>Tupolev ANT 20 Maxime Gorky</description>
