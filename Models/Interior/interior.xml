@@ -8,9 +8,22 @@
     <!-- Objets opaques -->
     <object-name>interieur</object-name>
     <object-name>planchet</object-name>
-    <object-name>tour</object-name>
+    <object-name>inttour</object-name>
 
     <!-- Objets transparents -->
+    <object-name>intvitres</object-name>
+  </animation>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>intvitres</object-name>
+  </animation>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>shader.png</texture>
+    <object-name>intvitres</object-name>
   </animation>
 
   <!-- Tableau de bord

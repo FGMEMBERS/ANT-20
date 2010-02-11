@@ -72,7 +72,14 @@
     <object-name>propdiscDM</object-name>
     <object-name>propblurDE</object-name>
     <object-name>propdiscDE</object-name>
-    <object-name>verriere</object-name>
+    <object-name>vitres</object-name>
+  </animation>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>glass_shader.png</texture>
+    <object-name>vitres</object-name>
   </animation>
 
   <animation>
@@ -93,7 +100,7 @@
     <object-name>propdiscDM</object-name>
     <object-name>propblurDE</object-name>
     <object-name>propdiscDE</object-name>
-    <object-name>verriere</object-name>
+    <object-name>vitres</object-name>
   </animation>
 
   <animation>
