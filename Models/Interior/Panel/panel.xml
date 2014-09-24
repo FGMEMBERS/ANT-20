@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- alt -->
+  <model>
+    <path>Aircraft/ANT-20/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -1.010 </y-m>
+      <z-m>  0.075 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/ANT-20/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.895 </y-m>
+      <z-m> 0.075 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- asi -->
+  <model>
+    <path>Aircraft/ANT-20/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.953 </y-m>
+      <z-m>  0.075 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/ANT-20/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.953 </y-m>
+      <z-m> 0.075 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- COMPASS -->
+  <model>
+    <path>Aircraft/ANT-20/Models/Interior/Panel/Instruments/MagneticCompass/compas.xml</path>
+    <offsets>
+      <x-m> -0.006 </x-m>
+      <y-m> -0.895 </y-m>
+      <z-m>  0.075 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/ANT-20/Models/Interior/Panel/Instruments/MagneticCompass/compas.xml</path>
+    <offsets>
+      <x-m> -0.006 </x-m>
+      <y-m>  1.010 </y-m>
+      <z-m>  0.075 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/ANT-20/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m>  0.00225 </x-m>
+      <y-m> -1.01000 </y-m>
+      <z-m>  0.00800 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/ANT-20/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m>  0.00225 </x-m>
+      <y-m>  0.89500 </y-m>
+      <z-m>  0.00800 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- TURN-->
+  <model>
+    <path>Aircraft/ANT-20/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m> -0.002 </x-m>
+      <y-m> -0.953 </y-m>
+      <z-m>  0.008 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/ANT-20/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m> -0.002 </x-m>
+      <y-m>  0.953 </y-m>
+      <z-m>  0.008 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- RPM-->
+  <model>
+    <path>Aircraft/ANT-20/Models/Interior/Panel/Instruments/rpm/rpm0.xml</path>
+    <offsets>
+      <x-m>  0.002 </x-m>
+      <y-m> -0.800 </y-m>
+      <z-m>  0.008 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/ANT-20/Models/Interior/Panel/Instruments/rpm/rpm1.xml</path>
+    <offsets>
+      <x-m>  0.002 </x-m>
+      <y-m> -0.740 </y-m>
+      <z-m>  0.008 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/ANT-20/Models/Interior/Panel/Instruments/rpm/rpm2.xml</path>
+    <offsets>
+      <x-m>  0.002 </x-m>
+      <y-m> -0.680 </y-m>
+      <z-m>  0.008 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/ANT-20/Models/Interior/Panel/Instruments/rpm/rpm3.xml</path>
+    <offsets>
+      <x-m>  0.002 </x-m>
+      <y-m> -0.620 </y-m>
+      <z-m>  0.008 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/ANT-20/Models/Interior/Panel/Instruments/rpm/rpm4.xml</path>
+    <offsets>
+      <x-m>  0.002 </x-m>
+      <y-m> -0.560 </y-m>
+      <z-m>  0.008 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/ANT-20/Models/Interior/Panel/Instruments/rpm/rpm5.xml</path>
+    <offsets>
+      <x-m>  0.002 </x-m>
+      <y-m> -0.500 </y-m>
+      <z-m>  0.008 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/ANT-20/Models/Interior/Panel/Instruments/rpm/rpm6.xml</path>
+    <offsets>
+      <x-m>  0.002 </x-m>
+      <y-m> -0.680 </y-m>
+      <z-m>  0.068 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/ANT-20/Models/Interior/Panel/Instruments/rpm/rpm7.xml</path>
+    <offsets>
+      <x-m>  0.002 </x-m>
+      <y-m> -0.680 </y-m>
+      <z-m>  0.068 </z-m>
+    </offsets>
+  </model>
+  
+</PropertyList>
