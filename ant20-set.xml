@@ -1,12 +1,21 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
-<!-- <PropertyList include="ant20-jsbsim-cnf.xml"> -->
-<PropertyList include="ant20-yasim-cnf.xml">
-
+<PropertyList include="ant20-base.xml">
+  
   <sim>
-    <description>Tupolev ANT 20 Maxime Gorky</description>
+    
+    <description>Tupolev ANT 20 (YASim)</description>
     <author>BARANGER Emmanuel (3D/FDM)</author>
+    <flight-model>yasim</flight-model>
+    <aero>ant20-yasim</aero>
+    
+    <rating>
+      <FDM type="int">     1 </FDM>
+      <systems type="int"> 1 </systems>
+      <cockpit type="int"> 1 </cockpit>
+      <model type="int">   4 </model>
+    </rating>
+    
   </sim>
 
 </PropertyList>
-

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
 
@@ -14,27 +14,21 @@
     <object-name>intvitres</object-name>
   </animation>
 
-  <animation>
-    <type>noshadow</type>
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/ANT-20/Models/Effects/Glass/glass</inherits-from>
     <object-name>intvitres</object-name>
-  </animation>
-
-  <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>shader.png</texture>
-    <object-name>intvitres</object-name>
-  </animation>
-
-  <!-- Tableau de bord
+  </effect>
+  
+  <!-- Tableau de bord -->
   <model>
-    <path>Aircraft/Hughes-XF11/Models/Interior/Panel/panel.xml</path>
+    <path>Aircraft/ANT-20/Models/Interior/Panel/panel.xml</path>
     <offsets>
-      <x-m> -1.407 </x-m>
-      <y-m>  0.000 </y-m>
-      <z-m>  0.418 </z-m>
+      <x-m> -13.58958 </x-m>
+      <y-m>   0.00000 </y-m>
+      <z-m>  -0.21088 </z-m>
     </offsets>
-  </model> -->
+  </model>
 
   <!-- Pilote -->
   <model>
@@ -74,4 +68,3 @@
   </model>
 
 </PropertyList>
-
