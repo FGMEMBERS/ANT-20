@@ -8,6 +8,18 @@
     <author>BARANGER Emmanuel (3D/FDM)</author>
     <flight-model>yasim</flight-model>
     <aero>ant20-yasim</aero>
+      <tag>transport</tag>
+    <tags>
+      <tag>tupolev</tag>
+      <tag>low-wing</tag>
+      <tag>tail-dragger</tag>
+      <tag>fixed-gear</tag>
+      <tag>castering</tag>
+      <tag>multi-engine</tag>
+      <tag>transport</tag>
+      <tag>1930s</tag>
+      <tag>1940s</tag>
+    </tags>
     
     <rating>
       <FDM type="int">     1 </FDM>
