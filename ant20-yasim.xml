@@ -12,8 +12,13 @@
      Speed cruise : 220 km/h                          (    120 kt )
      Altitude     : 4500 m                            ( 14 764 ft )
 -->
+<!--
+	Loaded weight: 42,000 kg (92,400 lb)
+	Max. takeoff weight: 53,000 kg (116,600 lb)
+				-Bruce McL, 2019
+-->
 
-<airplane mass="62831" version="YASIM_VERSION_CURRENT">
+<airplane mass="90000" version="YASIM_VERSION_CURRENT">
 
   <approach speed="84" aoa="6" fuel="0.2">
     <control-setting axis="/controls/engines/engine[0]/throttle" value="0.2"/>
@@ -79,9 +84,9 @@
         chord="11.377" 
         length="30.00" 
         taper="0.26" 
-        camber="0.01"
+        camber="0.07"
         dihedral="4">
-        <stall aoa="14" width="1" peak="1.5"/>
+        <stall aoa="14" width="4" peak="1.5"/>
         <flap0 start="0.049" end="0.48" lift="1.6" drag="1.8"/>
         <flap1 start="0.480" end="0.87" lift="1.2" drag="1.2"/>
 
@@ -138,7 +143,7 @@
              moment="5" 
              radius="2.32"
              gear-ratio="0.56"
-             min-rpm="300" max-rpm="1036"
+             min-rpm="300" max-rpm="1850"
              cruise-speed="120"
              cruise-rpm="1760" 
              cruise-power="750" 
@@ -161,7 +166,7 @@
              moment="5" 
              radius="2.32"
              gear-ratio="0.56"
-             min-rpm="300" max-rpm="1036"
+             min-rpm="300" max-rpm="1850"
              cruise-speed="120"
              cruise-rpm="1760" 
              cruise-power="750" 
@@ -184,7 +189,7 @@
              moment="5" 
              radius="2.32"
              gear-ratio="0.56"
-             min-rpm="300" max-rpm="1036"
+             min-rpm="300" max-rpm="1850"
              cruise-speed="120"
              cruise-rpm="1760" 
              cruise-power="750" 
@@ -207,7 +212,7 @@
              moment="5" 
              radius="2.32"
              gear-ratio="0.56"
-             min-rpm="300" max-rpm="1036"
+             min-rpm="300" max-rpm="1850"
              cruise-speed="120"
              cruise-rpm="1760" 
              cruise-power="750" 
@@ -230,7 +235,7 @@
              moment="5" 
              radius="2.32"
              gear-ratio="0.56"
-             min-rpm="300" max-rpm="1036"
+             min-rpm="300" max-rpm="1850"
              cruise-speed="120"
              cruise-rpm="1760" 
              cruise-power="750" 
@@ -253,7 +258,7 @@
              moment="5" 
              radius="2.32"
              gear-ratio="0.56"
-             min-rpm="300" max-rpm="1036"
+             min-rpm="300" max-rpm="1850"
              cruise-speed="120"
              cruise-rpm="1760" 
              cruise-power="750" 
@@ -276,7 +281,7 @@
              moment="5" 
              radius="2.32"
              gear-ratio="0.56"
-             min-rpm="300" max-rpm="1036"
+             min-rpm="300" max-rpm="1850"
              cruise-speed="120"
              cruise-rpm="1760" 
              cruise-power="750" 
@@ -299,7 +304,7 @@
              moment="5" 
              radius="2.32"
              gear-ratio="0.56"
-             min-rpm="300" max-rpm="1036"
+             min-rpm="300" max-rpm="1850"
              cruise-speed="120"
              cruise-rpm="1760" 
              cruise-power="750" 
@@ -345,7 +350,7 @@
   <tank x="4.249" y=" 16" z="-0.080" capacity="1584"/>
   <tank x="4.249" y="-16" z="-0.080" capacity="1584"/>
 
-  <!-- Mass displacment -->
-  <ballast x="14.65" y="0.0" z="-17.4" mass="3600" />
+  <!-- Mass displacment
+  <ballast x="14.65" y="0.0" z="-17.4" mass="3600" /> -->
 
 </airplane>
